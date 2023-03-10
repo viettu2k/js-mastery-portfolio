@@ -67,7 +67,6 @@ const Work = () => {
           <div className='app__work-item app__flex' key={index}>
             <div className='app__work-img app__flex'>
               <img src={urlFor(work?.imgUrl) as any} alt={work.name} />
-
               <motion.div
                 whileHover={{ opacity: [0, 1] }}
                 transition={{
