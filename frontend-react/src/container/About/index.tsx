@@ -22,7 +22,6 @@ const About = () => {
         I Know that <span>Good Design</span> <br />
         means <span>Good Business</span>
       </h2>
-
       <div className='app__profiles'>
         {abouts.map((about: any, index) => (
           <motion.div
